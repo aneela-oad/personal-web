@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aneela Oad</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bg">
+
+  <!-- ------------------header starts------------------ -->
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand nav-link " href="#" onclick="showPanels(0)">
+          <h1>A.</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" onclick="showPanels(1)"><i class="fa-solid fa-file"></i> Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="showPanels(2)"><i class="fa-solid fa-user-tie"  ></i>Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " onclick="showPanels(3)"> <i class="fa-solid fa-book-journal-whills"></i> Articles</a>
+                  </li>
+                </ul>
+              </div>
+
+      </div>
+    </nav>
+  </header>
+  <!-- ------------Header ends----------------------- -->
+
+  <div class="home-container panel" id="home" data-aos="fade-right" >
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-4">
+          <div class="quick_links">
+            <a href="">
+              <i class="fa-brands fa-facebook-square"></i>
+              <span>Facebook</span>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-twitter"></i>
+              <span>Twitter</span>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-google-plus-g"></i>
+              <span>Gmail</span>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-10 col-md-10 col-8">
+          <div class="home container">
+            <h1 class="title">Salesforce & Web Developer</h1>
+            <p class="about_para">
+              <!-- <span class="hello">Hello,</span> -->
+              <br>
+              My name is Aneela Oad. I'm Highly focused with a comprehensive knowledge of designing and developing the
+              layout,
+              visual appearance and usability of a website. Possessing a proven track record of successfully completing
+              projects from the concept through to design, testing and handover.
+              <br> I'm a web & salesforce developer, I specialize in custom applications using modern technologies <span
+                class="skill1">ReactJS</span>, <span class="skill2">Bootstrap</span>, <span class="skill3">Lightning Web
+                Components</span>
+
+              My life revolves around programming, coding,
+              and designing. Although I'm new to Fiverr, my experience working on the web is extensive. I am here to
+              help you
+              with any web related project you may be working on.
+            </p>
+          </div>
+
+        </div>
+        <div class="container text-center">
+          <div class=" "></div>
+          <button class="my-projects"> <span class="s1"> Projects</button>
+
+        </div>
+
+        <!-- <div class="slider">
+    <div class="container">
+      <div class="technologies container">
+        <div class="tech"><img src="assets/react.png" alt=""></div>
+        <div class="tech"><img src="assets/sales.png" alt=""></div>
+        <div class="tech"><img src="assets/javascript logo.png" alt=""></div>
+        <div class="tech"><img src="assets/git.png" alt=""></div>
+        <div class="tech"><img src="assets/vscode.png" alt=""></div>
+        <div class="tech"><img src="assets/boot.png" alt=""></div>
+      </div>
+    </div>
+  </div> -->
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- -----------------------------MY WORKS STARTS------------------------------ -->
+
+  <section class="work-container panel">
+    <div class="container">
+      <h1 class="my-5 text-center">My Projects</h1>
+      <div class="row">
+        <div class="col-lg-4 col-6 col-12">
+          <div class="project-box">
+            <h3 class="project_btn" onclick="displayProjects(0)">Web</h3>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-6 col-12">
+          <div class="project-box">
+            <h3 class="project_btn" onclick="displayProjects(1)">Salesforce</h3>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-6 col-12">
+          <div class="project-box">
+            <h3 class="project_btn" onclick="displayProjects(2)">Amazon</h3>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="projects-container">
+        <div class="web projects"> <h4>Web</h4></div>
+        <div class="salesforce projects">
+          <h4>Salesforce</h4>
+        </div>
+        <div class="Amazon projects">
+          <h4>Amazon</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -----------------------------MY WORKS ENDS-------------------------------- -->
+
+
+  <div class="resume-container panel" id="resume">
+    <div class="container">
+      <h1>Resume</h1>
+      <div class="row my-5">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="my-3 education-section" data-aos="fade-right">
+            <h2>Education</h2>
+            <div class=" edu-details">
+              <h4>Computer Engineering</h4>
+              <span class="my-5">Mehran University of Jamshoro and Technology, Jamshoro</span>
+              <br>
+              <span class="year">2018-2022</span>
+              <p>While still being the final year student, most of time I spend teaching people about the wonders of
+                developing websites and applications by running workshops/sessions, at Microsoft Learn Student
+                Ambassadors Club, Jamshoro.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="my-3 education-section">
+            <h2>experience</h2>
+            <div class=" edu-details">
+              <h4>Computer Engineering</h4>
+              <span class="my-5">Mehran University of Jamshoro and Technology, Jamshoro</span>
+              <br>
+              <span class="year">2018-2022</span>
+              <!-- <img src="https://www.gfinityplc.com/wp-content/uploads/2020/08/amazon-logo-png.png" alt=""> -->
+              <p>While still being the final year student, most of time I spend teaching people about the wonders of
+                developing websites and applications by running workshops/sessions, at Microsoft Learn Student
+                Ambassadors Club, Jamshoro.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="slider">
+            <div class="">
+              <h2 class="my-5"> Technologies</h2>
+
+              <div class="technologies container">
+
+                <div class="tech"><img src="assets/react.png" alt=""></div>
+                <div class="tech"><img src="assets/sales.png" alt=""></div>
+                <div class="tech"><img src="assets/javascript logo.png" alt=""></div>
+                <div class="tech"><img src="assets/git.png" alt=""></div>
+                <div class="tech"><img src="assets/vscode.png" alt=""></div>
+                <div class="tech"><img src="assets/boot.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 style="margin-top: 8rem">technical skills</h2>
+        <ul>
+          <li>
+            <p> <span class="bold">Standard Force.com Capabilities:</span> Workflow/Validation rules, Approval
+              processes, Sharing/Security models, Reports, Dashboards, Analytic functionality,
+              Sites/Portals/Communities, Chatter, Migration tools (Ant, Workbench, Data Loader), REST/SOAP API, Unit
+              tests</p>
+          </li>
+          <li>
+            <p> <span class="bold">Apex: </span>
+              Async Apex (batch jobs, future calls, schedulers), Dynamic Apex, SOQL/SOSL/DML operation, SOQL query
+              optimizations, Custom SOAP/REST services, Integration with external SOAP/REST services, Mock interfaces,
+              Security and Sharing model in Apex, Apex triggers, Distributing Apex in managed packages
+            </p>
+          </li>
+          <li>
+            <p><span class="bold">VisualForce:</span> Standard component library, Custom components, VisualForce
+              Remoting, Visualforce Remote Objects, Ajax capabilities, VisualForce templates, Standard
+              controllers/controller extensions</p>
+          </li>
+          <li>
+            <p><span class="bold">Front-end:</span> HTML5, CSS, SASS, Bootstrap, JavaScript, ReactJS</p>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </div>
+  </div>
+  <!-- 
+  <section class="slider">
+    <div class="container">
+      <h3 class="my-5">Technologies & Tools </h3>
+      <div class="technologies container">
+        <div class="tech"><img src="assets/react.png" alt=""></div>
+        <div class="tech"><img src="assets/sales.png" alt=""></div>
+        <div class="tech"><img src="assets/javascript logo.png" alt=""></div>
+        <div class="tech"><img src="assets/git.png" alt=""></div>
+        <div class="tech"><img src="assets/vscode.png" alt=""></div>
+        <div class="tech"><img src="assets/boot.png" alt=""></div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- <section class="about ">
+    <div class="container">
+
+    <h1>about</h1>
+    <p class="about_para">
+      “There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for”
+      A competent and committed Web Design and Development graduate looking for a rewarding career in the Information
+      Technology sector. Highly focused with a comprehensive knowledge of designing and developing the layout, visual
+      appearance and usability of a website. Possessing a proven track record of successfully completing projects from
+      the concept through to design, testing and handover. Eager to learn, easy going by nature and able to get along
+      with both work colleagues and senior managers. Currently looking for a suitable graduate web developer position
+      with a progressive employer
+    </p>
+    <button class="primary_btn">hire me</button>
+    <button>Download Resume</button>
+
+  </div>
+
+  </section> -->
+
+  <!-- --------------------blogs starts------------------- -->
+
+  <section class="blogs-container panel" id="blogs">
+    <div class="container">
+      <h1 class="my-5">My Blogs</h1>
+      <div class="row my-5">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class=" blog">
+            <div class="card">
+              <div class="card-body">
+                <img src="assets/execution.JPG" alt="" class="img-fluid">
+                <div class="content">
+                  <a href="">Read More</a>
+                </div>
+
+              </div>
+              <div class="card-footer">
+                <h4>Execution Context and Execution Stack in JavaScript</h4>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class=" blog">
+            <div class="card">
+              <div class="card-body">
+                <img src="assets/randomblog.JPG" alt="" class="img-fluid">
+                <div class="content">
+                  <a href="">Read More</a>
+                </div>
+
+              </div>
+              <div class="card-footer">
+                <h4>Random Number Quiz in JavaScript/h4>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class=" blog">
+            <div class="card">
+              <div class="card-body">
+                <img src="assets/top.JPG" alt="" class="img-fluid">
+                <div class="content">
+                  <a href="">Read More</a>
+                </div>
+
+              </div>
+              <div class="card-footer">
+                <h4>Top Used Firefox Extension</h4>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- --------------------blogs ends------------------- -->
+
+  <section class=" skills">
+
+    <div class="container">
+      <h2>my expertise</h2>
+      <div class="row my-5">
+        <div class="col-lg-6 col-md-6 col-6 my-3">
+          <div class="card">
+            <div class="skill-box">
+              <img src="assets/react.png" alt="">
+              <h4>Front-End Development</h4>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-12 my-3">
+          <div class="card">
+            <div class="skill-box">
+              <img src="assets/sales.png" alt="">
+              <h4>Salesforce Adminstration</h4>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-12 my-3">
+          <div class="card">
+            <div class="skill-box">
+              <img
+                src="https://www.clipartmax.com/png/middle/102-1029458_salesforce-began-in-1999-with-a-vision-of-reinventing-salesforce-com-logo.png"
+                alt="">
+              <h4>Salesforce Development</h4>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-12 my-3">
+          <div class="card">
+            <div class="skill-box">
+              <img
+                src="https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jM2M5ZDE0YmI5OTBiZTQ2YzAyZjkwMmMwNDMwZmY2OT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.q_T9NDM3y7mBp435d2MDzzpSr6KzgGv2wg3CBzI1CCA"
+                alt="">
+              <h4>Lightning Web Components </h4>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 my-3">
+          <div class="card">
+            <div class="skill-box">
+              <img src="https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg" alt="">
+              <h4>Amazon A-Z</h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------FOOTER STARTS-------------- -->
+
+  <footer class="text-center">
+    <p>Copyright 2013-2022 colorlib.com | operated by Divilab LLC Privacy Policy | Site Terms & Disclosures.Hosted by
+      Kinsta</p>
+  </footer>
+  <!-- ----------------FOOTER ENDS------------------ -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+  <script>
+    $('.technologies').slick({
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+
+
+    AOS.init();
+  </script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
