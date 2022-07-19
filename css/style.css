@@ -22,6 +22,9 @@ html{
 a{
     cursor: pointer;
 }
+.card-header, .card-footer{
+    padding: 0 !important;
+}
 h1{
     color: var(--primary);
     font-size: 4rem;
@@ -355,7 +358,7 @@ span{
 .work-container{
 /* background: black; */
 padding: 5rem 2rem;
-height: 100vh;
+/* height: 100vh; */
 }
 .work-container .project-box{
     height: 100%;
@@ -416,10 +419,41 @@ height: 100vh;
 
 
 
+.card{
+    border: none;
+    height: 100%;
+}
 
+.projects button{
+    padding: .6rem 2rem;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border: 1px solid var(--primary);
 
-
-
+    width: 10rem;
+    
+}
+.projects .card-header{
+    height: 100%;
+}
+.projects .card-header img{
+    height: 100%;
+}
+.projects .card-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: none !important;
+}
+.projects button a{
+    color: var(--primary);
+}
+/* --------------------------------- */
+a{
+    text-decoration: none ;
+}
 
 footer{
     position: absolute;
@@ -427,6 +461,7 @@ footer{
     padding: 2rem;
     left: 0;
     background: var(--primary);
+
 }
 
 /* ----------------MEDIA QUERIES---------------- */
