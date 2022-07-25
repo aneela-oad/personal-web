@@ -28,15 +28,18 @@ const showPanels = (index) => {
   panelButtons.forEach( (node) => {
     node.style.backgroundColor = ""
     node.style.color=""
+    node.style.borderBottom = ""
+
   })
   panelTabs.forEach((node) => {
     node.style.display="none"
   })
 //   panelButtons[index].style.backgroundColor = colorCode;
-//   panelButtons[index].style.color = "white"
+  panelButtons[index].style.color = "#0fbcf9"
+  panelButtons[index].style.borderBottom = "1px solid #0fbcf9"
   panelTabs[index].style.display= "block"
   // panelTabs[index].style.backgroundColor = colorCode;
-  // panelTabs[index].style.color = white;
+  // panelTabs[index].style.color = 'red';
 }
 
 showPanels(0)
@@ -55,9 +58,9 @@ const displayProjects = (index) => {
   })
 //   panelButtons[index].style.backgroundColor = colorCode;
 //   panelButtons[index].style.color = "white"
-projects[index].style.display= "block"
-  // panelTabs[index].style.backgroundColor = colorCode;
-  // panelTabs[index].style.color = white;
+  projects[index].style.display= "block"
+  // panelTabs[index].style.backgroundColor = ;
+  // panelTabs[index].style.color = 'red';
 }
 
 displayProjects(0)

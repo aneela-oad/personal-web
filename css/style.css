@@ -70,10 +70,7 @@ section{
     border-right: 6px solid var(--primary);    
     border-top: 6px solid var(--primary);    
 } */
-header .nav li a{
-    z-index: 9;
 
-}
 header .navbar-brand h1{
     /* border: 2px solid black; */
     padding: .2rem .6rem;
@@ -109,6 +106,8 @@ header .navbar-brand h1::after{
 }
 header li a{
     margin: 0 1rem;
+    text-transform: uppercase;
+    
 }
 /* --------------- */
 
