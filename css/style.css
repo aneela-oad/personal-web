@@ -3,14 +3,15 @@
 :root{
     --primary: #16A085;
     --primary: #688BFE;
+    --light: #8c7ae6;
     --light: #F1F1F0;
     --gray: #58595B;
     --primary: #192a56;
-    --primary: #e1b12c;
+    /* --primary: #e1b12c;
     --primary: #44bd32;
     --primary: #0097e6;
-    --primary: #0fbcf9;
-    /* --primary: #ffa801; */
+    --primary: #0fbcf9; */
+    --primary: #718093;
 }
 html{
     font-size: 62.5%;
@@ -368,14 +369,12 @@ padding: 5rem 2rem;
     transition: ease .3s;
     /* width: 50%; */
 }
-.work-container .project-box:hover{
+/* .work-container .project-box:active{
     background: var(--primary);
     color: white;
     
-}
-.project-box h3{
-    font-size: 2rem;
-}
+} */
+
 /* ------------------------------------------------------------------ */
 .blog .card, .blog .card-body{
     padding: 0 !important;
@@ -423,15 +422,14 @@ padding: 5rem 2rem;
     height: 100%;
 }
 
-.projects button{
+.project-box .project_btn{
     padding: .6rem 2rem;
     border: none;
-    font-size: 1.6rem;
+    font-size: 2rem !important;
     font-weight: 400;
-    border: 1px solid var(--primary);
-
-    width: 10rem;
-    
+    /* border: 1px solid var(--primary); */
+    transition: ease-in-out .3s all;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .projects .card-header{
     height: 100%;
@@ -460,6 +458,11 @@ footer{
     padding: 2rem;
     left: 0;
     background: var(--primary);
+
+}
+.panel{
+    transition: ease-in .4s all;
+    transition-delay: .4s;
 
 }
 

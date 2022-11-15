@@ -47,7 +47,9 @@ showPanels(0)
 let project_btn = document.querySelectorAll(".project_btn")
 let projects = document.querySelectorAll(".projects")
 console.log(projects);
+
 const displayProjects = (index) => {
+
 
   project_btn.forEach( (node) => {
     node.style.backgroundColor = ""
@@ -55,12 +57,14 @@ const displayProjects = (index) => {
   })
   projects.forEach((node) => {
     node.style.display="none"
+    
   })
 //   panelButtons[index].style.backgroundColor = colorCode;
 //   panelButtons[index].style.color = "white"
   projects[index].style.display= "block"
-  // panelTabs[index].style.backgroundColor = ;
-  // panelTabs[index].style.color = 'red';
+  project_btn[index].style.backgroundColor="#192a56"
+  project_btn[index].style.color="white"
+
 }
 
 displayProjects(0)
