@@ -354,27 +354,6 @@ span{
 
 
 
-/* ---------------projects-------------- */
-.work-container{
-/* background: black; */
-padding: 5rem 2rem;
-/* height: 100vh; */
-}
-.work-container .project-box{
-    height: 100%;
-    border-radius: none !important;
-    background: white;
-    padding: 1rem;
-    text-align: center;
-    transition: ease .3s;
-    /* width: 50%; */
-}
-/* .work-container .project-box:active{
-    background: var(--primary);
-    color: white;
-    
-} */
-
 /* ------------------------------------------------------------------ */
 .blog .card, .blog .card-body{
     padding: 0 !important;
@@ -412,41 +391,63 @@ padding: 5rem 2rem;
 }
 /* ------------------------------------------------------------------ */
 
-
-
-
-
-
-.card{
-    border: none;
-    height: 100%;
+/* ---------------projects-------------- */
+.work-container{
+    /* background: black; */
+    padding: 5rem 2rem;
+    /* height: 100vh; */
+    }
+.projects_container .project_card{
+        height: 100%;
+        border-radius: none !important;
+        background: white;
+        transition: ease .3s;
+        /* width: 50%; */
+    }
+    .projects_container .project_card .card-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+.projects_container .project_card .card-header,
+.projects_container .project_card .card-footer,
+.projects_container .project_card .card-body{
+    height: 100% !important;
+    /* background-color: #16A085; */
+  
+}
+.projects_container .project_card .card-footer,
+.projects_container .project_card .card-body{
+    padding: 1rem 2rem !important;
+}
+.projects_container{
+    margin-top: 8rem !important;
 }
 
-.project-box .project_btn{
-    padding: .6rem 2rem;
-    border: none;
-    font-size: 2rem !important;
-    font-weight: 400;
-    /* border: 1px solid var(--primary); */
-    transition: ease-in-out .3s all;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+.work-container .project_card .card-header img{
+    height: 30rem;
+
 }
-.projects .card-header{
-    height: 100%;
-}
-.projects .card-header img{
-    height: 100%;
-}
-.projects .card-footer{
+.project_buttons{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background: none !important;
+    /* background: yellow; */
+    font-size: 2rem;
+    justify-content: space-around;
 }
-.projects button a{
-    color: var(--primary);
+.project_buttons button{
+    border: none;
+    padding: .8rem 2rem;
 }
+.work-container .p_name{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.9rem;
+    color:var(--gray);
+    text-align: center;
+    margin: 1.2rem auto;
+}
+
 /* --------------------------------- */
 a{
     text-decoration: none ;
